@@ -109,7 +109,7 @@ const mapPatterns = (patterns: Patterns): string[] => {
  * @returns The list of file icons with applied patterns.
  */
 export const parseByPattern = (
-  rawFileIcons: FileIconWithPatterns
+  rawFileIcons: FileIconWithPatterns[]
 ): FileIcon[] => {
   return rawFileIcons.map(({ patterns, fileNames = [], ...rest }) => ({
     ...rest,

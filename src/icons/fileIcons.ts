@@ -672,9 +672,7 @@ export const fileIcons: FileIcons = {
       name: 'graphql',
       fileExtensions: ['graphql', 'gql'],
       fileNames: ['.graphqlconfig'],
-      patterns: {
-        graphql: FileNamePattern.Ecmascript,
-      },
+      patterns: { graphql: FileNamePattern.Ecmascript },
     },
     { name: 'rust', fileExtensions: ['rs', 'ron'] },
     { name: 'raml', fileExtensions: ['raml'] },
@@ -975,17 +973,11 @@ export const fileIcons: FileIcons = {
     {
       name: 'postcss',
       fileExtensions: ['pcss', 'sss'],
-      fileNames: [],
-      patterns: {
-        postcss: FileNamePattern.Cosmiconfig,
-      },
+      patterns: { postcss: FileNamePattern.Cosmiconfig },
     },
     {
       name: 'posthtml',
-      fileNames: [],
-      patterns: {
-        posthtml: FileNamePattern.Cosmiconfig,
-      },
+      patterns: { posthtml: FileNamePattern.Cosmiconfig },
     },
     {
       name: 'todo',
@@ -1537,10 +1529,7 @@ export const fileIcons: FileIcons = {
     {
       name: 'semantic-release',
       light: true,
-      fileNames: [],
-      patterns: {
-        release: FileNamePattern.Cosmiconfig,
-      },
+      patterns: { release: FileNamePattern.Cosmiconfig },
     },
     {
       name: 'bitbucket',
@@ -1790,10 +1779,7 @@ export const fileIcons: FileIcons = {
     { name: 'prolog', fileExtensions: ['p', 'pro', 'pl'] },
     {
       name: 'husky',
-      fileNames: [],
-      patterns: {
-        husky: FileNamePattern.Cosmiconfig,
-      },
+      patterns: { husky: FileNamePattern.Cosmiconfig },
     },
     { name: 'coconut', fileExtensions: ['coco'] },
     { name: 'tilt', fileNames: ['tiltfile'] },
@@ -1818,9 +1804,7 @@ export const fileIcons: FileIcons = {
     {
       name: 'commitlint',
       fileNames: ['.commitlint.yaml', '.commitlint.yml'],
-      patterns: {
-        commitlint: FileNamePattern.Cosmiconfig,
-      },
+      patterns: { commitlint: FileNamePattern.Cosmiconfig },
     },
     { name: 'buck', fileNames: ['.buckconfig'] },
     { name: 'dhall', fileExtensions: ['dhall', 'dhallb'] },
@@ -2179,10 +2163,7 @@ export const fileIcons: FileIcons = {
     },
     {
       name: 'svgr',
-      fileNames: [],
-      patterns: {
-        svgr: FileNamePattern.Cosmiconfig,
-      },
+      patterns: { svgr: FileNamePattern.Cosmiconfig },
     },
     { name: 'rome', fileNames: ['rome.json'] },
     {
@@ -2286,10 +2267,7 @@ export const fileIcons: FileIcons = {
     },
     {
       name: 'craco',
-      fileNames: [],
-      patterns: {
-        craco: FileNamePattern.Cosmiconfig,
-      },
+      patterns: { craco: FileNamePattern.Cosmiconfig },
     },
     {
       name: 'gamemaker',
@@ -2342,10 +2320,7 @@ export const fileIcons: FileIcons = {
     { name: 'mermaid', fileExtensions: ['mmd', 'mermaid'] },
     {
       name: 'syncpack',
-      fileNames: [],
-      patterns: {
-        syncpack: FileNamePattern.Cosmiconfig,
-      },
+      patterns: { syncpack: FileNamePattern.Cosmiconfig },
     },
     {
       name: 'mojo',
@@ -2396,10 +2371,7 @@ export const fileIcons: FileIcons = {
     { name: 'lottie', fileExtensions: ['lottie'] },
     {
       name: 'puppeteer',
-      fileNames: [],
-      patterns: {
-        puppeteer: FileNamePattern.Cosmiconfig,
-      },
+      patterns: { puppeteer: FileNamePattern.Cosmiconfig },
     },
     { name: 'apps-script', fileExtensions: ['gs'] },
     {

@@ -22,11 +22,6 @@ interface BasicFileIcon {
   fileNames?: string[];
 
   /**
-   * Define patterns for file names. Patterns are used to generate common file names and file extensions based on a key.
-   */
-  patterns?: Patterns;
-
-  /**
    * Define if there is a light icon available.
    */
   light?: boolean;
@@ -58,4 +53,19 @@ interface BasicFileIcon {
 export type FileIcon = RequireAtLeastOne<
   BasicFileIcon,
   'fileExtensions' | 'fileNames'
+>;
+
+interface BasicFileIconWithPatterns extends BasicFileIcon {
+  /**
+   * Define patterns for file names. Patterns are used to generate common file names and file extensions based on a key.
+   */
+  patterns?: Patterns;
+}
+
+/**
+ * Type for a FileIconWithPatterns. In addition to the `name` property, either a `fileExtensions`, `fileNames`, or `patterns` property is required.
+ */
+export type FileIconWithPatterns = RequireAtLeastOne<
+  BasicFileIconWithPatterns,
+  'fileExtensions' | 'fileNames' | 'patterns'
 >;

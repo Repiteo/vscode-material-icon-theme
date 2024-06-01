@@ -8,7 +8,7 @@ import {
 
 describe('File name patterns', () => {
   it('should add a pattern to the file names', () => {
-    const fileIconsWithPatterns: FileIconWithPatterns = [
+    const fileIconsWithPatterns: FileIconWithPatterns[] = [
       {
         name: 'file1',
         fileNames: ['file1.txt'],
@@ -38,7 +38,7 @@ describe('File name patterns', () => {
   });
 
   it('should return same file names if there is no pattern configured', () => {
-    const fileIconsWithPatterns: FileIconWithPatterns = [
+    const fileIconsWithPatterns: FileIconWithPatterns[] = [
       {
         name: 'file1',
         fileNames: ['file1.txt'],
@@ -57,7 +57,7 @@ describe('File name patterns', () => {
   });
 
   it('should add multiple patterns to the file names', () => {
-    const fileIconsWithPatterns: FileIconWithPatterns = [
+    const fileIconsWithPatterns: FileIconWithPatterns[] = [
       {
         name: 'file1',
         fileNames: ['file1.txt'],
